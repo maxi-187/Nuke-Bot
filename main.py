@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def on_ready():
     try:
         synced = await bot.tree.sync()
-        print(f"✅ Slash-Commands synchronisiert: {len(synced)} Befehle")
+        print(f"✅ Slash commands synchronized: {len(synced)} commands")
     except Exception as e:
         print(f"❌ Error while syncing: {e}")
     print(f"✅ Logged in as {bot.user}")
