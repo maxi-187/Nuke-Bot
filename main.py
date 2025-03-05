@@ -17,7 +17,7 @@ async def on_ready():
         synced = await bot.tree.sync()
         print(f"✅ Slash-Commands synchronisiert: {len(synced)} Befehle")
     except Exception as e:
-        print(f"❌ Fehler beim Sync: {e}")
+        print(f"❌ Error while syncing: {e}")
     print(f"✅ Logged in as {bot.user}")
 
 @bot.tree.command(name="nuke", description="Nuke a Server")
