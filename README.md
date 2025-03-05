@@ -1,7 +1,7 @@
-A Simple Py Discord Bot that Deleted all Channel & Roles.
+A Simple Py Nuke Discord Bot that deleted all Channel & Roles.
 
-Just install **dotenv** and **discord**
+Just install **dotenv** and **discord** packages
 
-Thats it.
+That's it.
 
 Made by **Maxi-187**
